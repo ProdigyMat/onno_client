@@ -1,0 +1,134 @@
+/* Reset and Basic Styles */
+body, h1, h2, h3, p, ul, li, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background: #555;
+}
+
+/* Hero Section */
+#hero {
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background: #e04d01;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #c43e01;
+}
+
+/* Features Section */
+#features {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+/* Download Section */
+#download {
+    background: #f4f4f4;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#download p {
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #e04d01;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #c43e01;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
